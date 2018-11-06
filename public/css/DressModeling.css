@@ -1,0 +1,155 @@
+
+.zr_btn{
+    width: 394px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 20px auto 70px;
+    margin-top:20px;
+}
+.zr_btn a{
+    width: 187px;
+    height: 34px;
+    cursor: pointer;
+    background: #ececec;
+    font-size: 17px;
+    text-align: center;
+    line-height: 34px;
+    border-radius: 30px/80px;
+    color: #121212 !important;
+}
+.zr_btn a:hover{
+    color:#B08746 !important;
+}
+
+
+/*DressModeling*/
+.box {
+	overflow: hidden;/*超出部分不显示,同时还可以清楚浮动的效果*/
+	border: 1px solid #ccc;
+	width: 1200px;
+	margin: 100px auto;
+}
+
+
+
+.box ul li a{
+	position: relative;/*相对定位*/
+	float: left;/*左浮动:让元素飘起来*/
+	width: 384px;
+	height: 556px;
+	margin: 5px;
+	background: #fff;
+	overflow: hidden;
+	background: url(../img2/15299969050.jpg) center/cover;/*改变背景*/
+
+}
+
+
+	
+
+.box ul li:nth-child(2) a{/*css选择器:选择ul中第二个li */
+	background: url(../img2/15355108920.jpg) center/cover;/*改变背景*/
+}
+
+.box ul li:nth-child(3) a{
+	background: url(../img2/15231898760.jpg) center/cover;
+}
+
+.box ul li:nth-child(4) a{
+	background: url(../img2/15231908900.jpg) center/cover;
+}
+
+.box ul li:nth-child(5) a{
+	background: url(../img2/15231963900.jpg) center/cover;
+}
+
+.box ul li:nth-child(6) a{
+	background: url(../img2/15278443220.jpg) center/cover;
+}
+.box ul li:nth-child(7) a{
+	background: url(../img2/mz03.jpg) center/cover;
+}
+.box ul li:nth-child(8) a{
+	background: url(../img2/15355118480.jpg) center/cover;
+}
+.box ul li:nth-child(9) a{
+	background: url(../img2/15366297380.jpg) center/cover;
+}
+/*在"，"这里设置before和after的相同属性*/
+.box ul li a::before,.box li a::after {/*伪元素:在li前面添加内容*/
+	content: "";/*添加的内容*/
+	position: absolute;/*绝对定位:在这里可以使before,after设置宽高*/
+	width: 100%;
+	height: 100%;
+	background: rgba(255, 200, 200, 0.5);
+	transition: 0.7s;
+}
+/*然后在设置不同的属性,可以减少代码*/
+.box ul li a::before {
+	transform: rotate(55deg) translateX(-682px) scale(1.8);
+	/*变换:旋转(角度)  x轴位移(偏移量) 缩放(1.8倍)*/
+}
+
+.box ul li a::after {
+	transform: rotate(55deg) translateX(682px) scale(1.8);
+}
+
+.box ul li a:hover::before {
+	transform: rotate(55deg) translateX(-345px) scale(1.8);
+}
+
+.box ul li a:hover::after {
+	transform: rotate(55deg) translateX(345px) scale(1.8);
+}
+
+.box ul li .t1 {
+	z-index: 2;/*改变div的层级使其上移两层*/
+	overflow: hidden;
+	position: absolute;
+	top: 40px;
+	color: #fff;
+	width: 200px;
+	height: 0;
+	background: rgba(0, 0, 0, 0.5);
+	text-align: center;
+	transform: rotate(55deg);
+	transition: 0.7s;
+}
+/*:hover放在里后面而不是div后的原因:鼠标height: 0;高度为0,鼠标没有能够经过div,就不能触发:hover事件*/
+.box ul li:hover .t1 {
+	height: 145px;
+	transform: rotate(0);
+}
+
+.box ul li .t1 h3 {
+	margin: 0;
+	font-family: 'Great Vibes',cursive;
+	border-bottom: 2px solid #fff;
+	font-size: 24px;
+	line-height: 54px;
+}
+
+.box ul li .t1 p {
+	font-size: 16px;
+	margin: 5px;
+	line-height: 24px;
+}
+
+.box ul li .t1 h4 {
+	margin: 0;
+	font-family: 'Great Vibes',cursive;
+	border-bottom: 2px solid #fff;
+	font-size: 14px;
+	line-height: 30px;
+}
+.box ul li .t1 h5 {
+	margin: 0;
+	font-family: 'Great Vibes',cursive;
+	
+	font-size: 18px;
+	line-height: 30px;
+}
+
+
+/*DressModeling1*/

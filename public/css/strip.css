@@ -1,0 +1,82 @@
+.focus{
+    height:600px;
+    position:relative;
+    width:100%;
+}
+#gallery{
+    display: block;
+}
+
+.ft-title{
+    background-color:rgba(128, 128, 128, 0.8) !important;
+    font-size:18px;
+    font-weight:bold;
+    height:37px;
+    line-height:40px;
+    margin-right:10px;
+    text-align:right;
+    width:100%;
+}
+.ft-title a{
+    color:#fff;
+}
+.ft-prev, .ft-next{
+    /* CSS3 transform */
+    -webkit-transition:all 0.2s ease-in-out 0s;
+    -moz-transition:all 0.2s ease-in-out 0s;
+    -o-transition:all 0.2s ease-in-out 0s;
+    -ms-transition:all 0.2s ease-in-out 0s;
+    transition:all 0.2s ease-in-out 0s;
+}
+.ft-prev{
+    background-color:rgba(128, 128, 128, 0.5);
+    border-color:transparent #0072BC transparent transparent;
+    border-radius:50%;
+    border-style:solid;
+    border-width:30px;
+    overflow:hidden;
+    height:0;
+    width:0;
+    left: 10px !important;
+}
+.ft-next{
+    background-color:rgba(128, 128, 128, 0.5);
+    border-color:transparent transparent transparent #0072BC;
+    border-radius:50%;
+    border-style:solid;
+    border-width:30px;
+    overflow:hidden;
+    width:0;
+    height:0;
+    left: 1450px;
+}
+.ft-prev:hover{
+    border-right-color:#00548b;
+}
+.ft-next:hover{
+    border-left-color:#00548b;
+}
+#ft-buttons-gallery a{
+    display: block;
+    float: left;
+    text-align: center;
+}
+#ft-buttons-gallery a:link, #ft-buttons-gallery a:visited{
+    background-color:#F5F5F5;
+    border:1px solid #EBEBEB;
+    color:#0072BC;
+    font-weight:normal;
+    margin-left:10px;
+    padding:2px 7px;
+    text-decoration:none;
+    width:22px;
+}
+#ft-buttons-gallery a.ft-button-gallery-active{
+    background-color:#DDEEFF;
+    border:1px solid #BBDDFF;
+    color:#0072BC;
+    cursor:default;
+    margin-left:10px;
+    padding:2px 7px;
+    text-decoration: none;
+}

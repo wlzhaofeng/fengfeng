@@ -1,0 +1,151 @@
+
+<header id="header">
+    <div id="head_top">
+        <ul>
+            <li class="Substation">分站：</li>
+            <li>
+                <a href="">三亚</a>
+            </li>
+            <li>
+                <a href="">厦门</a>
+            </li>
+            <li>
+                <a href="">青岛</a>
+            </li>
+            <li>
+                <a href="">丽江</a>
+            </li>
+            <li>
+                <a href="">大理</a>
+            </li>
+            <li>
+                <a href="">香格里拉</a>
+            </li>
+            <li>
+                <a href="">青海</a>
+            </li>
+            <li>
+                <a href="">西藏</a>
+            </li>
+            <li>
+                <a href="">巴厘岛</a>
+            </li>
+            <li>
+                <a href="">塞班岛</a>
+            </li>
+            <li>
+                <a href="">曼谷</a>
+            </li>
+            <li>
+                <a href="">普吉岛</a>
+            </li>
+            <li>
+                <a href="">济州岛</a>
+            </li>
+            <li>
+                <a href="">日本</a>
+            </li>
+            <li>
+                <a href="">马尔代夫</a>
+            </li>
+            <li class="iph">
+                <a href="" title="点击查看">手机版</a>
+            </li>
+            <li class="Complaint">
+                投诉：<i>188-0120-6652</i>
+            </li>
+        </ul>
+    </div>
+    <div class="head">
+        <i></i>
+        <div class="logo">
+          <h1><a href="" title="三亚克洛伊摄影"></a></h1>
+        </div>
+        <div id="nav">
+          <ul>
+            <li class="on">
+                <a href="index.html" target="__blank"><b style="top: 0px;">网站首页</b><span style="top: 0px;">HOME</span></a>
+            </li>
+            <li class=""><a href="Make-up.html" target="__blank"><b>礼服妆面</b><span>MAKEUP</span></a></li>
+            <li class=""><a href=""><b style="top:0;">每日推荐</b><span style="top:0;">RECOMMEND</span></a></li>
+            <li class="sub"><a href=""><b>全球样片</b><span>WORKS</span></a>
+                <ul class="sub_nav">
+                    <li><a href="">巴厘岛站</a></li>
+                    <li><a href="">日本站</a></li>
+                    <li><a href="">济州岛站</a></li>
+                    <li><a href="">塞班岛站</a></li>
+                    <li><a href="">曼谷站</a></li> 
+                    <li><a href="">普吉岛站</a></li>
+                    <li><a href="">马尔代夫站</a></li>
+                    <li><a href="">三亚站</a></li>
+                    <li><a href="">厦门站</a></li>
+                    <li><a href="">丽江站</a></li>
+                    <li><a href="">大理站</a></li>
+                    <li><a href="">香格里拉站</a></li>
+                    <li><a href="">青海站</a></li>
+                    <li><a href="">青岛站</a></li>
+                    <li><a href="">西藏站</a></li>
+                    <li><a href="">欧洲站</a></li>
+                    <li><a href="">微电影</a></li>
+                </ul>
+            </li>
+            <li class="x sub"><a href=""><b>客片欣赏</b><span>WORKS</span></a>
+                <ul>
+                    <li><a href="">明星网红</a></li>
+                    <li><a href="">巴厘岛客片</a></li>
+                    <li><a href="">日本客片</a></li>
+                    <li><a href="">济州岛客片</a></li>
+                    <li><a href="">塞班岛客片</a></li>
+                    <li><a href="">曼谷客片</a></li> 
+                    <li><a href="">普吉岛客片</a></li>
+                    <li><a href="">马尔代夫客片</a></li>
+                    <li><a href="">三亚客片</a></li>
+                    <li><a href="">厦门客片</a></li>
+                    <li><a href="">丽江客片</a></li>
+                    <li><a href="">大理客片</a></li>
+                    <li><a href="">香格里拉客片</a></li>
+                    <li><a href="">青海客片</a></li>
+                    <li><a href="">青岛客片</a></li>
+                    <li><a href="">西藏客片</a></li>
+                    <li><a href="">全家福</a></li>
+                    <li><a href="">艺术写真</a></li>
+                </ul>
+            </li>
+            <li class="sub"><a href=""><b>关于我们</b><span>ABOUT</span></a>
+                <ul style="display: none;">
+                    <li><a href="">品牌介绍</a></li>
+                    <li><a href="">发展历程</a></li>
+                    <li> <a href="#">金牌团队</a></li>
+                </ul>
+            </li>
+            <li class=""><a href=""><b>粉丝好评</b><span>FANS</span></a></li>
+            <li class=""><a href=""><b>联系我们</b><span>CONTACT</span></a></li>
+          </ul>
+        </div>
+      </div>
+ </header>
+ <script>
+    $(function(){
+        $(".sub").hover(function(){
+            $(this).children('ul').stop(true,true).show(300);
+        },function(){
+            $(this).children('ul').stop(true,true).hide(300);
+        })
+    })
+
+    
+$(function() {
+	$("#nav>ul>li").hover(function() {
+	
+		$(this).find("a:first b").animate({"top": "17px"},"fast");
+		$(this).find("span").animate({"top": "-24px"},"fast");
+		if (!$(this).find("ul").is(":animated")) $(this).find("ul").slideDown("fast")
+	},
+	function() {
+		$(this).find("a:first b").animate({"top": "0px"},"fast");
+		$(this).find("span").animate({"top": "0px"},"fast");
+		if (!$(this).find("ul").is(":animated")) $(this).find("ul").slideUp("fast");
+		$("#nav ul ul").slideUp("fast")
+    })
+})
+ </script>

@@ -1,0 +1,92 @@
+* { 
+	margin:0; 
+  padding:0;
+  list-style: none;
+  text-decoration: none;
+  
+}
+body{
+  font: 12px 'Microsoft YaHei','Droid Sans Fallback','PingFang SC','Hiragino Sans GB','Heiti SC','WenQuanYi Micro Hei',sans-serif;
+}
+a{
+  display: block;
+  color: #666;
+}
+.bt1{
+  background: url(../images/i8.png) no-repeat center 0;
+  height: 230px;
+  margin: 100px 0 40px;
+  text-align: center;
+}
+.bt1 i{
+  border-bottom: 1px solid #bfc5c8;
+  position: relative;
+  top: 102px;
+  display: block;
+}
+.bt1 a{
+  width: 764px;
+  padding-top: 88px;
+  height: 85px;
+  overflow: hidden;
+  margin: 0 auto;
+  display: block;
+}
+.bt1 span{
+  font-size: 20px;
+  font-family: 'Great Vibes',cursive;
+  margin: 0 auto 30px;
+  background: #fff;
+  padding: 5px 10px 0px;
+  position: relative;
+}
+.bt1 a:hover span {
+  background: #8a979f;
+  color: #fff;
+  border-radius: 5px;
+}
+.bt1 h2{
+  margin-top: 70px
+}
+.h1{
+  background-position: center -230px;
+}
+.h2 {
+  background-position: center -690px;
+  margin-top: 60px;
+}
+.h3{
+  background-position: center -1380px;
+}
+.h4{
+  background-position: center -1610px;
+}
+
+.h6{
+  background-position: center -920px;
+}
+
+.h7 {
+  background-position: center -460px;
+}
+
+.h8 {
+  background-position: center -920px;
+}
+.h9 {
+  background-position: center -1840px;
+  margin: 49px auto 126px;
+}
+
+.sc1,.sc2,.sc6 .bd,.news,.sc7{
+    width: 1180px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.sc1 ul,.sc2 ul,.sc7 ul{
+    width: 1215px;
+}
+
+
+
+

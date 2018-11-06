@@ -1,0 +1,252 @@
+#footer{
+    width:100%;
+}
+#nav2 {
+    
+    background: #657681;
+    height: 80px;
+    text-align: center;
+    position: relative;
+}
+#nav2 ul{
+    width: 1180px;
+    margin: 0 auto;
+}
+#nav2 li{
+    position: relative;
+    float: left;
+}
+#nav2 a {
+    display: block;
+    float: left;
+    height: 80px;
+    color: #fff;
+    width: 116px;
+    position: relative;
+}
+#nav2 b {
+    font-weight: normal;
+    font-size: 16px;
+    margin: 20px 0 5px;
+    display: block;
+    position: relative;
+}
+#nav2 a span {
+    font-size: 1px;
+    line-height: 12px;
+    display: block;
+    font-weight: normal;
+    cursor: pointer;
+    position: relative;
+    color: #c5c9cb;
+}
+
+
+.f1 {
+    min-width:1400px ;
+    background: #e8d9c3 url(../images/f1.png) no-repeat center 0;
+    height: 351px;
+}
+.f1 span {
+    display: block;
+    padding-top: 44px;
+    width: 1180px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.f1 i {
+    float: left;
+    display: block;
+    width: 430px;
+    height: 143px;
+    margin-left: 109px;
+    cursor: pointer;
+}
+.f1 i.r {
+    margin-left: 100px;
+    width: 490px;
+}
+
+
+
+.f2 {
+    min-width: 1180px;
+    background: #8a979f url(../images/map.png) no-repeat center 0;
+    height: 632px;
+}
+.f2 ul {
+    position: relative;
+    width: 1180px;
+    margin: 0 auto;
+}
+.f2 li {
+    position: absolute;
+    font-size: 14px;
+}
+.f2 a {
+    color: #ff9;
+    padding: 0 3px;
+    border-radius: 3px;
+}
+.f2 .n0 {
+    top: 312px;
+    left: 935px;
+}
+.f2 .n1 {
+    top: 402px;
+    left: 941px;
+    font-size: 16px;
+}
+.f2 .n2 {
+    top: 300px;
+    left: 1026px;
+}
+.f2 .n3 {
+    top: 331px;
+    left: 846px;
+}
+.f2 .n4 {
+    top: 353px;
+    left: 835px;
+}
+.f2 .n5 {
+    top: 252px;
+    left: 942px;
+    font-size: 12px;
+}
+.f2 .n6 {
+    top: 248px;
+    left: 1042px;
+}
+.f2 .n7 {
+    top: 292px;
+    left: 962px;
+}
+.f2 .n8 {
+    top: 289px;
+    left: 848px;
+}
+.f2 .n9 {
+    top: 381px;
+    left: 781px;
+}
+.f2 .n10 {
+    top: 201px;
+    left: 569px;
+}
+.f2 .n11 {
+    top: 309px;
+    left: 31px;
+}
+.f2 .n12 {
+    top: 441px;
+    left: 40px;
+}
+
+
+.f3 {
+    background: url(../images/f3.png) no-repeat center 0;
+    height: 445px;
+}
+.f3{
+    background:url("../images/f3.png")no-repeat center 0;
+    height:445px;
+}
+.f3 .bd{
+    width:812px;
+    height:293px;
+    padding-top:60px;
+    margin:0 auto;
+    overflow:hidden;
+}
+.f3 .l{
+    width:360px;
+    height:170px;
+    margin-left:20px;
+    overflow:hidden;
+}
+.f3 .l a{
+    display:block;
+    padding-top:180px;
+}
+.f3 ul{float:right;
+    width:360px;
+}
+.f3 li{
+    background:url("../images/f3_i.png")no-repeat;
+    font-size:16px;
+    line-height:40px;
+    height:40px;overflow:hidden;
+}
+.f3 .n2{background-position:0 -40px}
+.f3 .n3{background-position:0 -80px}
+.f3 .n4{background-position:0 -120px}
+.f3 li a{
+    color:#fff;
+    padding-left:30px;
+}
+.f3 li a:hover{color:#ff9}
+.f3 .bt{
+    width:92px;
+    height:92px;
+    margin:0 auto;
+    overflow:hidden;
+}
+.f3 .bt a{
+    display:block;
+    padding-top:95px;
+}
+.f4{
+    padding:20px 0 0;
+    height:150px;
+    margin:0 auto;
+    line-height:30px;
+    clear:both;
+    text-align:center;
+    font-size:14px;
+    background:#fff;
+}
+.f4 a{
+    display: inline;
+}
+.f4 a:hover{
+    text-decoration:none;
+    color: #c67e12;
+}
+.f4 a.ilank:hover{
+    color:#fff;
+    background:#333;
+    border-radius:3px;
+}
+.f4 i{
+    font-family:Georgia, "Times New Roman", Times, serif;
+    color:#999;
+    display:block;
+}
+
+.link {
+    overflow: hidden;
+    padding: 40px 0 20px;
+    line-height: 18px;
+    color: #999;
+}
+.link .hd {
+    float: left;
+    margin-right: 10px;
+    text-align: right;
+}
+.link .bd a {
+    color: #999;
+    margin-right: 4px;
+    display: inline;
+}
+.link .bd a:hover {
+    color: #333;
+    text-decoration: underline;
+}
+.f0{
+    min-width:1400px ;
+    background: url(../images/f0.png) no-repeat center 0;
+    height: 122px;
+    clear: both;
+}
