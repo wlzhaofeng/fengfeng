@@ -83,10 +83,94 @@ a{
     margin: 0 auto;
     overflow: hidden;
 }
-.sc1 ul,.sc2 ul,.sc7 ul{
+.sc1 ul,.sc2 ul,.sc7 ul,.sc9 .hd ul{
     width: 1215px;
 }
 
+.s2,.wb_b,.sc9 .hd,.wp{
+  width: 1180px;
+  margin: 0 auto;
+}
 
 
+/* 公共轮播样式 */
+.indexlunbo {
+  margin-top: 84px;
+  position: relative;
+  height: 650px;
+  z-index: 1;
+  overflow: hidden;
+  background: #eee url(../images/load.gif) no-repeat center center;
+}
+.indexlunbo .i a {
+  width: 49px;
+  height: 97px;
+  background: url(../images/ap_i.png) no-repeat;
+  position: absolute;
+  left: 2%;
+  top: 220px;
+  z-index: 2;
+}
+.indexlunbo a.next {
+  background-position: -51px 0;
+  left: auto;
+  right: 2%;
+}
+.indexlunbo .bd li {
+  float: left;
+  width: 100%;
+  height: 650px;
+  background-position: center 0;
+  background-repeat: no-repeat;
+}
+.indexlunbo .bd a {
+  display: block;
+  height: 480px;
+  width: 1000px;
+  margin: 100px auto 0;
+  outline: none;
+  position: relative;
+  z-index: 2;
+}
+.indexlunbo .hd {
+  position: absolute;
+  bottom: 20px;
+  z-index: 1;
+  width: 100%;
+  height: 21px;
+  text-align: center;
+  margin: 0 auto;
+}
+.indexlunbo .hd li {
+  display: inline-block;
+ 
+  cursor: pointer;
+  width: 21px;
+  height: 21px;
+  background: url(../images/ulink.png) no-repeat;
+}
+.indexlunbo .hd li.on {
+  background-position: -21px 0;
+}
+.indexlunbo i {
+  background: url(../images/ap.png) no-repeat center bottom;
+  height: 192px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+/* 回顶部 */
+.tp {
+  width: 38px;
+  height: 30px;
+  background: #618cb2 url(../images/tp.png) no-repeat center 7px;
+  position: fixed;
+  right: 5px;
+  bottom: 500px;
+  z-index: 1000;
+  display: none;
+  border-radius: 4px;
+}
 

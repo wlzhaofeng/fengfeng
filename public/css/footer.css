@@ -176,7 +176,8 @@
     background:url("../images/f3_i.png")no-repeat;
     font-size:16px;
     line-height:40px;
-    height:40px;overflow:hidden;
+    height:40px;
+    overflow:hidden;
 }
 .f3 .n2{background-position:0 -40px}
 .f3 .n3{background-position:0 -80px}
@@ -247,6 +248,6 @@
 .f0{
     min-width:1400px ;
     background: url(../images/f0.png) no-repeat center 0;
-    height: 122px;
+    height: 120px;
     clear: both;
 }

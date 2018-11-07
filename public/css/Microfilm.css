@@ -1,9 +1,16 @@
+
+a:hover {
+    color: #c67e12;
+    text-decoration: none;
+}
+a{display: inline;}
 .md08 {
     overflow: hidden;
     margin: 0 auto;
     background: #fff;
     clear: both;
 }
+
 .md08 .bd {
     background: url(../images/i24_1.gif) no-repeat center bottom;
     clear: both;
@@ -21,11 +28,17 @@
 .r01 .up {
     background: url(../images/nav_c.gif) no-repeat -7px 0;
 }
+.r01 .down {
+    background: url(../images/nav_c.gif) no-repeat -59px 0;
+    margin-left: 10px;
+}
+.r01 a:hover {
+    opacity: 1;
+}
 .r01 a {
     width: 42px;
     padding-top: 76px;
     display: block;
-    filter: alpha(opacity=70);
     opacity: 0.70;
     float: left;
 }
@@ -48,16 +61,22 @@
     margin-left: 20px;
 }
 .l2 h1 {
-    font-family: Microsoft Yahei,黑体;
+    font-family:"Microsoft Yahei,黑体";
     color: #c46200;
     font-size: 24px;
     line-height: 30px;
     margin: 0 0 8px;
     font-weight: normal;
 }
+.lred {
+    color: #c46200;
+}
+.lred:hover {
+    color: #f90;
+    text-decoration: underline;
+}
 .sia {
     margin: 0 8px 0 0;
-    position: relative;
     top: 3px;
 }
 
@@ -95,6 +114,7 @@
     float: left;
     text-indent: 15px;
 }
+
 .main_p .cntL {
     border: 1px solid #E9EBEF;
     border-top: none;
@@ -117,6 +137,8 @@
     padding-left: 10px;
     width: 285px;
 }
+
+
 .post-nav .r {
     float: right;
     padding-right: 10px;
@@ -147,6 +169,10 @@
     padding: 4px 4px 2px;
     text-decoration: none;
 }
+.art li a:hover {
+    background: #f90;
+    text-decoration: none;
+}
 .art img {
     background: #fff url(../images/art.gif) no-repeat center center;
     display: block;
@@ -161,7 +187,88 @@
     line-height: 10px;
     overflow: hidden;
     width: 50px;
-    font-size: 9px\9;
+    font-size:1px;
     letter-spacing: 1px;
     display: block;
 }
+.main_p .comment, .book {
+    padding-top: 10px;
+    background: #E9EBEF url(../images/comment.gif) no-repeat 0 bottom;
+}
+.comment {
+    line-height: 190%;
+    margin: 0 auto;
+    clear: both;
+    overflow: hidden;
+    padding: 0 20px 40px;
+    background: #E9EBEF;
+}
+.comment_hd>a{
+    display: inline;
+    padding-right: 5px;
+}
+.more_c {
+   
+    background: #f90;
+    color: #fff;
+}
+.more_c:hover {
+    background: #c6f;
+    color: #fff;
+}
+.line {
+    margin: 8px 0 5px;
+    line-height: 0;
+    overflow: hidden;
+}
+#pos {
+    margin-top: 40px;
+}
+.comment .post {
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 644px;
+    letter-spacing: 1px;
+}
+.comment label {
+    font-size: 14px;
+    height: 20px;
+    line-height: 20px;
+}
+.comment .input{
+    padding: 4px;
+    height: 14px;
+    vertical-align: middle;
+    border: 1px solid #d8dfe5;
+    background: #fefefe;
+    color: #555;
+}
+.textarea_top {
+    padding-top: 10px;
+}
+.comment .textarea{
+    border: 1px solid #d8dfe5;
+    background: #fff url(../images/book_bg.gif) no-repeat right bottom;
+    float: left;
+    height: 86px;
+    width: 520px;
+    margin-top: 2px;
+    padding: 6px;
+    color: #555;
+}
+.comment .btn {
+    float: right;
+    height: 104px;
+    width: 104px;
+    background: url(../images/btn.gif) no-repeat center top;
+    border: none;
+    font-size: 14px;
+    font-weight: 700;
+    color: #663300;
+    cursor: pointer;
+}
+.comment .btn:hover {
+    background-position: center bottom;
+}
+
+.tip_a{background:url("tip.gif") no-repeat center 20%;width:319px;height:460px}

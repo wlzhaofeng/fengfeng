@@ -271,10 +271,7 @@
 
 .s2 { position: relative;
 }
-.s2 {
-    width: 1180px;
-    margin: 0 auto;
-}
+
  .s2 img{
     width: 1180px;
     height: 625px;
@@ -362,10 +359,7 @@
     display: block;
     z-index: -1;
 }
- .wb_b{
-    width: 1180px;
-    margin: 0 auto;
-}
+
 .wb .r {
     width: 820px;
     float: right;
@@ -627,4 +621,56 @@
     color:#657681;
 }
 
-
+/* 热门城市轮播样式 */
+.sc9 .bd {
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+}
+.sc9 .bd li {
+    float: left;
+    width: 100%;
+    height: 100%;
+    background-position: center 0;
+    background-repeat: no-repeat;
+}
+.sc9 .hd {
+    position: relative;
+    height: 195px;
+    overflow: hidden;
+}
+.sc9 .hd li {
+    margin-right: 20px;
+    float: left;
+    text-align: center;
+}
+.sc9 .hd h3 {
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 58px;
+}
+.sc9 .hd img {
+    width: 220px;
+    height: 110px;
+    display: block;
+}
+.sc9 .hd a:hover, .sc9 .hd .on a {
+    color: #c67e12;
+}
+.sc9 .hd i {
+    border-bottom: 1px solid #bfc5c8;
+    position: absolute;
+    bottom: 2px;
+    width: 100%;
+    display: block;
+}
+.sc9 .hd span {
+    display: block;
+    background: #fc0;
+    width: 220px;
+    height: 5px;
+    position: absolute;
+    bottom: 0;
+    font-size: 0;
+    line-height: 0;
+}

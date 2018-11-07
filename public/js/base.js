@@ -8,13 +8,14 @@ $(function() {
     $('.sc5 li').hover(
             function(){$(this).find("a:first s").animate({"top":"0px"},500);},
             function(){$(this).find("a:first s").animate({"top":"108px"},500);});
-    $('.sc2 li,.s2').hover(
+    $('.sc2 li,.s2,.sc9 .hd li').hover(
             function() {$(this).find("img").fadeTo("fast", 0.8);},
             function() {$(this).find("img").fadeTo("slow", 1);});
     $('.sc1 li,.sc5 li').hover(
             function() {$(this).find("img").fadeTo("fast", 0.60);},
             function() {$(this).find("img").fadeTo("slow", 1);});
 });
+
 
 // footer
 $(function(){
@@ -39,6 +40,32 @@ $(function(){
         }
     })
 })
+
+//回顶部
+$(function(){
+    //当滚动条的位置处于距顶部100像素以下时，跳转链接出现，否则消失
+    $(function () {
+        $(window).scroll(function(){
+            if ($(window).scrollTop()>100){
+                $(".tp").fadeIn(1500);
+            }
+            else
+            {
+                $(".tp").fadeOut(1500);
+            }
+        });
+        //当点击跳转链接后，回到页面顶部位置
+        $(".tp").click(function(){
+            $('body,html').animate({scrollTop:0},1000);
+            return false;
+        });
+    });
+  });
+
+
+
+
+
 
 
 
